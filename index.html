@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0,0,0,0.3);
+            font-size: 40px;
+        }
+
+        nav {
+            background-color: rgba(0,0,0,0.4);
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        .images {
+            margin: 30px 0;
+        }
+
+        .images img {
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            margin: 10px;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        .images img:hover {
+            transform: scale(1.1);
+        }
+
+        audio, video {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        video {
+            width: 60%;
+            max-width: 600px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>This is Index</h1>
+
+    <nav>
+        <a href="contact.html">Contact</a>
+        <a href="index.html">Index</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <div class="images">
+        <img src="ar.jpg" alt="my picture">
+        <img src="roe.jpg" alt="my picture">
+    </div>
+
+    <audio controls>
+        <source src="Recording (2).m4a" type="audio/mpeg">
+    </audio>
+
+    <br><br>
+
+    <video controls>
+        <source src="proje.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
